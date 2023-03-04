@@ -110,53 +110,50 @@ h1 {
     background-image: url("images/bg-desktop.svg");
     background-repeat: no-repeat;
     background-size: unset;
-    background-position-x: left;
   }
   main {
     margin: 60px auto 0;
     width: 1284px;
     height: 700px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #section-1 {
+    width: 753px;
+    height: 700px;
   }
   #logo-container {
     height: 134px;
   }
   #mockups {
-    /* width: 696px; */
-  }
-  #section-1 {
-    grid-column: 1/7;
-    width: 750px;
-    height: 700px;
+    width: 696px;
   }
   #section-2 {
-    grid-column: 7/13;
     text-align: left;
     height: 700px;
   }
   h1 {
     text-align: left;
-    margin-top: 160px;
+    margin-top: 165px;
     height: 133px;
     font-size: 39px;
     padding-right: 93px;
   }
   #section-2 p {
     text-align: left;
-    font-size: 20px;
-    height: 100px;
+    font-size: 18px;
+    height: 98px;
     padding-right: 17px;
   }
   .btn {
     text-align: left;
-    margin-bottom: 169px;
+    margin-bottom: 179px;
     margin-top: 60px;
   }
   .btn a {
     width: 200px;
     height: 60px;
-    padding-top: 15px;
+    padding-top: 14px;
     font-size: 20px;
     text-align: center;
   }
@@ -173,6 +170,5 @@ h1 {
     font-size: 22px;
     padding-top: 8px;
     text-align: center;
-    margin-bottom: 60px;
   }
 }
